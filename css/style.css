@@ -1,0 +1,336 @@
+/* ここから下に記載していく */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .header_nav{
+
+    display: flex;
+}
+
+.header_nav li{
+   margin-left: 40px;
+}
+
+/*ココからメインヴィジュアル*/
+.mainvisual{
+ height: 400px;
+ background: url(../img/about_02.jpg);
+ background-position: center;
+ background-size: cover;
+ background-repeat: repeat;
+
+}
+
+.mainvisual_title{
+font-size: 30px;
+font-weight: bold;
+color: #fff;
+text-align: center;
+padding-top: 180px;
+}
+
+.mainvisual__subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*ココからabout*/
+.about_title{
+    text-align: center;
+    width: 60%;
+    /*background-color: red;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50PX;
+    margin-bottom: 50PX;
+    color: red;
+}
+
+.about_subtitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: gold;
+}
+
+.about_text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*ココから画像エリア*/
+.imgBoX{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.imgBoX p {
+    width: 25%;
+
+}
+
+.imgBoX p img{
+    width: 100%;
+}
+
+
+/*ここからコースエリア*/
+.course {
+     margin:0;
+     margin-bottom: 60px;
+  }
+   .course__title {
+    font-size: 25px;
+     text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: green;
+  }
+  .course__text {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 70px;
+    margin-bottom: 60px;
+  }
+  .course__inner {
+    display: flex;
+  }
+  .course__contet {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .course__contet__right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  .course__contet img {
+    width: 100%;
+    vertical-align: top;
+  }
+  .content__title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    color: khaki;
+  }
+  .content__text {
+    width: 100%;
+  }
+  .contet__left {
+    width: 430px;
+    margin-left: 50px;
+  }
+  .contet__right {
+    width: 430px;
+    margin-right: 50px;
+  }
+  /*ここからコースエリア*/
+.course {
+    margin:0;
+    margin-bottom: 60px;
+    }
+    .course__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    }
+    .course__text {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 70px;
+    margin-bottom: 60px;
+    }
+    .course__inner {
+    display: flex;
+    }
+    .course__contet {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    }
+    .course__contet__right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    }
+    .course__contet img {
+    width: 100%;
+    vertical-align: top;
+    }
+    .content__title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    }
+    .content__text {
+    width: 100%;
+    }
+    .contet__left {
+    width: 430px;
+    margin-left: 50px;
+    }
+    .contet__right {
+    width: 430px;
+    margin-right: 50px;
+    }
+    
+    /* ここからNEWS */
+    .news {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .news__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-bottom: 30px;
+    }
+
+    
+    .news__box {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+    }
+    .news__inner {
+    width: 300px;
+    margin:0 30px;
+    }
+    .news__inner:hover {
+    box-shadow: 0 5px 10px rgb(243, 239, 5);
+    transform: translate(0, -5px);
+    }
+    .news__date {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 30px;
+    }
+    .news__text {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 24px;
+    }
+    
+    /*ここからMoreエリア*/
+    .more {
+    margin:60px auto 60px;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    background-color: lightblue;
+    }
+
+    
+    /*ここからアクセスエリア*/
+    .access {
+    margin:0 auto 0;
+    background-color: #fdf3f3e3;
+    padding: 60px 0 60px;
+    width: 80%;
+    }
+    .access__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    }
+    .access__text {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 60px;
+    }
+    .access__info {
+    margin: 60px auto 0;
+    text-align: left;
+    }
+    .access__info td {
+    padding: 10px;
+    }
+    
+    /*ここからコンタクトエリア*/
+    .contact {
+    margin: 60px auto 70px;
+    }
+    .contact__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    }
+    .contact__text1 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 60px;
+    }
+    .contact__text2 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    
+    /*ここから問い合わせエリア*/
+    .contactform__table {
+    margin: auto;
+    border-collapse: collapse;
+    }
+    .contactform__table th {
+    vertical-align: top;
+    text-align: left;
+    border: solid 1px #bfbfbf;
+    border-left: none;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 64px;
+    width: 240px
+    }
+    .contactform__table td {
+    padding: 8px;
+    border: solid 1px #bfbfbf;
+    border-right: none;
+    width: 400px
+    }
+    
+    /*ここから送信エリア*/
+    .sent {
+    margin: 30px auto 140px;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    background-color: #fce043f8;
+    }
+    .sent:hover {
+    box-shadow: 0 5px 10px rgb(58, 57, 15);
+    transform: translate(0, -5px);
+    }
+    /* ここからフッターエリア */
+    .footer {
+    margin: auto;
+    background-color: #707070;
+    padding: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff
+    }
+    
